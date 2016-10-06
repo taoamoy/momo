@@ -16,6 +16,8 @@
 		255226D41DA5E8260066F9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255226D21DA5E8260066F9D5 /* LaunchScreen.storyboard */; };
 		255226DF1DA5E8270066F9D5 /* NewMomoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255226DE1DA5E8270066F9D5 /* NewMomoTests.m */; };
 		255226EA1DA5E8270066F9D5 /* NewMomoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255226E91DA5E8270066F9D5 /* NewMomoUITests.m */; };
+		255226FA1DA5E90F0066F9D5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255226F81DA5E90F0066F9D5 /* RootViewController.m */; };
+		255226FB1DA5E90F0066F9D5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255226F91DA5E90F0066F9D5 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		255226E51DA5E8270066F9D5 /* NewMomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewMomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255226E91DA5E8270066F9D5 /* NewMomoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewMomoUITests.m; sourceTree = "<group>"; };
 		255226EB1DA5E8270066F9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255226F71DA5E90F0066F9D5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		255226F81DA5E90F0066F9D5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		255226F91DA5E90F0066F9D5 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,9 @@
 				255226C71DA5E8260066F9D5 /* ViewController.h */,
 				255226C81DA5E8260066F9D5 /* ViewController.m */,
 				255226CA1DA5E8260066F9D5 /* Main.storyboard */,
+				255226F71DA5E90F0066F9D5 /* RootViewController.h */,
+				255226F81DA5E90F0066F9D5 /* RootViewController.m */,
+				255226F91DA5E90F0066F9D5 /* RootViewController.xib */,
 				255226D01DA5E8260066F9D5 /* Assets.xcassets */,
 				255226D21DA5E8260066F9D5 /* LaunchScreen.storyboard */,
 				255226D51DA5E8260066F9D5 /* Info.plist */,
@@ -251,6 +259,7 @@
 			files = (
 				255226D41DA5E8260066F9D5 /* LaunchScreen.storyboard in Resources */,
 				255226D11DA5E8260066F9D5 /* Assets.xcassets in Resources */,
+				255226FB1DA5E90F0066F9D5 /* RootViewController.xib in Resources */,
 				255226CC1DA5E8260066F9D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +289,7 @@
 				255226C61DA5E8260066F9D5 /* AppDelegate.m in Sources */,
 				255226CF1DA5E8260066F9D5 /* NewMomo.xcdatamodeld in Sources */,
 				255226C31DA5E8260066F9D5 /* main.m in Sources */,
+				255226FA1DA5E90F0066F9D5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
